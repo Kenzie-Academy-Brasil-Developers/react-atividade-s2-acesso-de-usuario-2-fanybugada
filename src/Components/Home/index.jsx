@@ -1,9 +1,11 @@
 import { Link } from "react-router-dom";
 import { members } from "../Members";
+import "./index.css";
 
 function Home() {
   return (
-    <div>
+    <div className="homeContainer">
+      <h1>Bem vind@!</h1>
       {members.map((member, index) =>
         member.type === "pj" ? (
           <p key={index}>

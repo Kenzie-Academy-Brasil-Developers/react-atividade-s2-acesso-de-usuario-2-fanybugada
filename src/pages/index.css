@@ -1,0 +1,8 @@
+.containerPages {
+  width: 400px;
+  margin: auto;
+  border-radius: 40px;
+  padding: 50px;
+  background-color: rgb(35, 35, 36);
+  color: #cacaca;
+}
